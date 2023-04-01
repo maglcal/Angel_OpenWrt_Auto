@@ -78,9 +78,9 @@ sed -i 's/"带宽监控"/"监控"/g' `egrep "带宽监控" -rl ./`
 sed -i 's/"设置向导"/"向导"/g' `egrep "设置向导" -rl ./`
 
 # 添加插件包
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
-sed -i "/helloworld/d" "feeds.conf.default"
-echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
+# sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+# sed -i "/helloworld/d" "feeds.conf.default"
+# echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 # git clone https://github.com/281677160/openwrt-package.git package/Angel/
 
 
